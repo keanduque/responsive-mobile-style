@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow+Semi+Condensed:wght@400;600&family=Fira+Sans:ital,wght@0,100;0,200;0,400;0,500;1,100;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {   
+
+  body {
+    font-family: "Roboto", sans-serif;
+    background-image: url('img/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color : #1E2333;
+
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  .container {
+    padding: 19.2px;
+    overflow: hidden;
+  }
+  .hero-content-header {
+    text-align:center;
+    margin-top: 95.3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 3px 0px 15px #1F263E;
+  }
+
+  .hero-content-sub {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40.3px;
+    color: #1E2333;
+  }
+  .close {
+      position: absolute;
+      top: 21.49px;
+      left: 19.2px;
+  }
+  .rating li {
+      display: inline;
+  }
+  .rating {
+    display: inline-block;
+  }
+  .rating-star ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .rating-cl {
+    color: #F85036;
+    font-size: 15px;
+    vertical-align: top;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    vertical-align: middle;
+    margin-left: 8.49px;
+  }
+  .rating-star, .rating-txt {
+    float: left;
+  }
+  .rating {
+    margin-top: 8px;
+  }
+
+  .paywall-content{
+    margin-top:51.7px;
+  }
+  .paywall-list {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 29px;
+  }
+  .img-holder {
+    float: left;
+    margin-right: 18.9px;
+  }
+  .right-content {
+    float: left;
+  }
+
+  .paywall-header {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #1E2333;
+    line-height: 24px;
+  }
+  .paywall-sub {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    color: #13D68F;
+    margin-top: 3.7px;
+  }
+  .img-holder {
+    vertical-align: middle;
+    line-height: 3;
+  }
+  .paywall-cta {
+    margin-top: 23px;
+  }
+
+  .paywall-mid {
+    margin: 0 auto;
+    max-width: 281.22px;
+    width: 100%;
+  }
+
+  .paywall-cta span.restore {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 11px;
+  }
+  a.btn-cta {
+    width: 334px;
+    height: 63px;
+    text-align: center;
+    background-color: #13D68F;
+    display: block;
+    border-radius: 45.24px;
+    padding: 9px;
+    margin-bottom: 22px;
+    text-decoration: none;
+    outline: none;
+  }
+
+  div.rules {
+    font-family: 'Fira Sans', sans-serif;
+    color: #414141;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  span.paywall-price {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    display: block;
+    color: #ffffff;
+  }
+  span.paywall-try {
+    vertical-align: middle;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+
+  .bottom-slide {
+    text-align: center;
+    vertical-align: middle;
+    position: initial;
+    margin-top: 17px;
+  }
+}
